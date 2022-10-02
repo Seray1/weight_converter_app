@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* // css media queries? */
+@media (min-width:320px)  {
+    span{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    body{
+        height: 100%;
+    } 
+    article{
+          height:100vh ;
+         
+        }
+   .first-section{
+        background-color: #6C44FB;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+   }
+   .first-section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    pad: 30px;
+   }
+   .first-section div div {
+    border: 1px solid #AFACC1 ;
+    padding: 5px 15px 5px 15px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 2em;
+   }
+   button{
+    padding: 5px 20px 5px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+   }
+   .second-section{
+    color: #524D64;
+    background-color: #AFACC1;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        font-size: 0.7em;
+        height: 70%;
+        width: 100%;
+
+   } 
+    .second-section div{
+        background-color:#F3F3F3 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .second-section p{
+        color: black;
+    }
+    footer{
+        text-align: center;
+        background-color: transparent;
+        padding: 1px;
+        box-shadow: 0 -5px 10px black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-decoration: one;
+        color: black;
+        
+    }
+    .fa-github{
+        color: black;
+    }
+    .fa-twitter{
+        color: blue;
+    }
+     }
+
+     @media (min-width:1025px) { 
+        article{
+          height:100vh ;
+         
+        }
+        .second-section{
+            height: 70%;
+        }
+        .first-section{
+            height: 30%;
+        }
+        .first-section div h1{
+            font-size: 2em;
+        }
+        body{
+          font-size: 1em;
+        }
+      }
+
+      
+
+
+
+
+      
+
+      
+
+
+
+
+
